@@ -1,6 +1,7 @@
 import React from 'react'
 import './AdminLayout.css';
 import Navbar from '../../Components/Navbar/Navbar';
+import Dashboard from '../Dashboard/Dashboard';
 
 const AdminLayout = () => {
   return (
@@ -13,7 +14,7 @@ const AdminLayout = () => {
 
         </div>
         <div className="layout-main-pages">
-            
+            <Dashboard/>
         </div>
       </div>
     </div>

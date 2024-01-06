@@ -1,0 +1,128 @@
+.dashboard-main-container{
+    /* border: 2px solid red; */
+}
+.dashboard-main-container h1{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.dashboard-main-container p{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+.dashboard-container{
+    display: flex;
+    align-items: center;
+}
+.dashborad-details{
+    display: flex;
+    justify-content: space-around;
+    padding: 4% 1%;
+    width: 60%;
+    /* border: 2px solid green; */
+}
+.graph1{
+    /* border: 2px solid goldenrod; */
+    margin: 10px;
+}
+.dasboard-totalUsers{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 15px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.dasboard-totalUsers h3{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.dasboard-totalUsers .users{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.dasboard-totalUsers .users i{
+    color: blue;
+    font-size: 30px;
+}
+.dasboard-totalUsers .users p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.dasboard-totalProducts{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 15px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+.dasboard-totalProducts h3{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.dasboard-totalProducts .products{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.dasboard-totalProducts .products i{
+    color: green;
+    font-size: 30px;
+}
+.dasboard-totalProducts .products p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.dasboard-totalOrders{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 15px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+.dasboard-totalOrders h3{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.dasboard-totalOrders .orders{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.dasboard-totalOrders .orders i{
+    color: red;
+    font-size: 30px;
+}
+.dasboard-totalOrders .orders p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.dashborad-graph-representation{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.graph3{
+    /* border: 2px solid rgb(94, 51, 251); */
+    width: 50%;
+    margin: 10px;
+}
+
+.graph2{
+    /* border: 2px solid rgb(111, 251, 51); */
+    width: 50%;
+    margin: 10px;
+}
