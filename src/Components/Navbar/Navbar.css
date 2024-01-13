@@ -19,11 +19,12 @@
 .admin_profile .avatar {
     margin-inline: 18px;
     cursor: pointer;
+    
 }
 .avatar img{
     border-radius: 50%;
-    height: 35px;
-    width: 35px;
+    height: auto;
+    width: 50px;
     object-fit: fill;
 }
 .avatar_details p {

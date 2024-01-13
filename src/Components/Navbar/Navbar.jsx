@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css';
 
 // Image
-import profile from '../../assets/adam.jfif'
+import profile from '../../assets/pr.jfif'
 
 const Navbar = () => {
   return (

@@ -1,12 +1,15 @@
 import React from "react";
 import "./Dashboard.css";
 import { Graphs, Graphs2 } from "../../Components/Charts/Graphs";
+import Orders from "../../Components/Orders/Orders";
 
 const Dashboard = () => {
   return (
     <div className="dashboard-main-container">
       <h1>Dashboard</h1>
-      <p>Hi, Admin Welcom Back to the Analytical Dashboard</p>
+      <p>Hi, Admin Welcom Back to the Dashboard Overview</p>
+
+      {/* Dashboard catlog */}
       <div className="dashboard-container">
         <div className="dashborad-details">
           <div className="dasboard-totalUsers">
@@ -31,10 +34,9 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-        <div className="graph1">
-          <Graphs />
-        </div>
       </div>
+
+      {/* Graph Section */}
       <div className="dashborad-graph-representation">
         <div className="graph3">
           <Graphs2 />
@@ -42,6 +44,14 @@ const Dashboard = () => {
         <div className="graph2">
           <Graphs />
         </div>
+      </div>
+
+      {/* Order List Section */}
+      <div className="dashborad-orders-list">
+        <div className="dashboard-orders-heading">
+          <h2>Recent Orders </h2>
+        </div>
+        <Orders />
       </div>
     </div>
   );
