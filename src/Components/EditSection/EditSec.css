@@ -1,0 +1,35 @@
+.editsection{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(247 248 250);;
+    margin-top: 15px;
+    padding: 20px 15px;
+}
+.editsection button{
+     padding: 8px 8px;
+     margin-left: 22px;
+     border: none;
+     border-radius: 3px;
+     letter-spacing: 1px;
+     color: white;
+     cursor: pointer;
+     transition:0.6s;
+}
+.editsection button span{
+    font-size: 15px;
+}
+.editsection .all{
+    background-color: rgb(163, 164, 167);
+}
+
+.editsection .delete{
+    background-color: red;
+}
+.editsection button:hover{
+    scale: 0.9;
+  
+}
+.editsection .add{
+    background-color: green;
+}
