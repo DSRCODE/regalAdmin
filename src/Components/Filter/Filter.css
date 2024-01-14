@@ -1,0 +1,72 @@
+.filtersec {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(247 248 250);;
+    margin-top: 15px;
+    padding: 20px 5px;
+   
+}
+
+.filtersec .filterbox {
+    background-color: #e9ebf7;
+     margin: 2px 20px;
+     width: 23%;
+      border-radius: 4px;
+     
+
+}
+
+.filtersec .searchbox input {
+    border: none;
+    outline: none;
+    padding: 9px 10px;
+    background-color: transparent;
+    font-size: 15px;
+   
+}
+
+.filtersec .categorybox select {
+    border: none;
+    outline: none;
+     padding: 9px 10px;
+    background-color: transparent;
+    font-size: 15px;
+   
+    cursor: pointer;
+}
+.filtersec .categorybox select option{
+    background-color: #e9ebf7;
+}
+
+.filtersec .pricebox select {
+    border: none;
+    outline: none;
+    padding: 9px 10px;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+.filtersec .pricebox select option{
+    background-color: #e9ebf7;
+}
+
+.filtersec .filterbtn button{
+      padding: 9px 20px;
+     margin-left: 20px;
+     border: none;
+     border-radius: 3px;
+     letter-spacing: 2px;
+     color: white;
+     cursor: pointer;  
+     transition: 0.6s;
+}
+.filtersec .filterbtn button:hover{
+    scale: 0.9;
+}
+.filtersec .filterbtn .filter{
+    background-color: green;
+}
+.filtersec .reset{
+    background-color: rgb(115, 116, 115);
+}
