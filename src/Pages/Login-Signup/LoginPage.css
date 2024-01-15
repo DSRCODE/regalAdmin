@@ -1,0 +1,134 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 3rem 2rem;
+
+   
+}
+.login-box{
+    border-radius: 4px;
+    background-color: #dce0f2a2;
+    display: flex;
+    width: 70%;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.349);
+   
+}
+
+.login-imagepart{
+   width: 60%;
+   background-color: rgba(68, 149, 255, 0.401);
+   overflow: hidden;
+      transition: 1s;
+    
+}
+.login-imagepart:after{
+    position: relative;
+    content: " Welcome To Our Admin Web Service";
+    font-size: 16px;
+    letter-spacing: 1px;
+    bottom: 20px;   
+    left: 25%;
+ 
+}
+.login-imagepart:hover{
+    filter: brightness(0.7);
+}
+.login-imagepart .lottie{
+    filter: drop-shadow(13px 5px 4px rgba(0, 0, 0, 0.514));
+       transition: 1s;
+}
+.login-imagepart .lottie:hover{
+    scale: 1.1;
+}
+
+.login-infopart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 4rem ;   
+    width: 40%;
+}
+.login-infopart h3{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.login-infopart span{
+     font-size:13px ;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    color: rgba(0, 0, 0, 0.555);
+    
+}
+.login-infopart .userfild{
+    padding: 10px 15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    width: 97%;
+}
+.login-infopart .rememberbox{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3px 2px;
+  
+
+}
+.login-infopart .rememberbox input{
+    margin-right: 7px;
+      cursor: pointer;
+}
+.login-infopart .rememberbox label{
+    font-size:12px ;
+    font-weight: 400;
+    margin-top: 6px;
+      cursor: pointer;
+}
+.login-infopart .loginbutton{
+    margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.login-infopart .loginbutton button{
+    padding: 7px 100px ;
+    border-radius: 4px;
+    border: none ;
+    background-color: #407aff;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: 0.8s;
+}
+.login-infopart .loginbutton button:hover{
+    background-color: #08142eda;
+    scale: 1.07;
+}
+.login-infopart .forgotbox{
+     margin: 30px 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.login-infopart .forgotbox h6{
+  cursor: pointer;
+}
+
+.login-infopart .forgotbox button{
+    padding: 5px 10px;
+    margin-right: 6px;
+     border-radius: 4px;
+    border: none ;
+    background-color: #407aff;
+    color: white;
+    letter-spacing: 1px;
+    transition: 0.8s;
+}
+.login-infopart .forgotbox button:hover{
+    background-color: #08142eda;
+}
