@@ -62,7 +62,7 @@
     color: rgba(0, 0, 0, 0.555);
     
 }
-.login-infopart .userfild{
+.login-infopart .inputfield{
     padding: 10px 15px;
     font-size: 15px;
     letter-spacing: 1px;
@@ -131,4 +131,26 @@
 }
 .login-infopart .forgotbox button:hover{
     background-color: #08142eda;
+}
+
+.login-infopart .signup-google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12px;
+    padding: 14px 8px;
+}
+.login-infopart .signup-google button{
+    border: none ;
+    background-color:  #407aff;
+    padding: 5px 12px;
+    border-radius: 4px;
+    color: white;
+    transition: 0.8s;
+}
+
+.login-infopart .signup-google button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+   
 }
