@@ -31,11 +31,9 @@
     border: 1px solid rgba(0, 0, 0, 0.237);
     position: absolute;
     left: 8%;
-    top: 32%;
+    top: 40%;
     background-color: #e9ebf7;
     border-radius: 3px;
-    animation: slidup 0.7s ease;
-   display: none;
 }
 .category-bar ul li{
     list-style: none;
@@ -48,16 +46,6 @@
     transition: 0.5s;
 }
 .category-bar ul li:hover{
-    color: black;
+    color: rgb(85, 60, 244);
 }
 
-@keyframes slidup {
-    0%{
-        opacity: 0;
-        transform: translateY(98px);
-    }
-    100%{
-        opacity: 1;
-        transform: none;
-    }
-}
